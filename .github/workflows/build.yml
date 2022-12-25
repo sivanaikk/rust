@@ -19,8 +19,5 @@ jobs:
       - name: Install mdbook
         run: cargo install mdbook --version 0.4.25
 
-      - name: Install mdbook-svgbob
-        run: cargo install mdbook-svgbob --version 0.2.1
-
       - name: Test code snippets
         run: mdbook test

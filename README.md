@@ -1,3 +1,3 @@
 # Rust
 
-This repository has the my journey learning rust🦀
+This repository is the Notes of Rust Language🦀
