@@ -2,7 +2,7 @@
 
 #### if and if let
 
-```
+```rust
 let num = Some(22);
 
 if num.is_some() {
@@ -18,7 +18,7 @@ if let Some(i) = num {
 
 ### loop
 
-```
+```rust
 let mut count = 0;
 
 loop {
@@ -31,7 +31,7 @@ loop {
 
 #### Nested loops & labels
 
-```
+```rust
 'outer: loop {
 'inner: loop {
     break;  // This breaks the inner loop
@@ -42,7 +42,7 @@ loop {
 
 #### Returning from loops
 
-```
+```rust
 let mut counter = 0;
 let result = loop {
     counter += 1;
@@ -54,7 +54,7 @@ let result = loop {
 
 #### while and while let
 
-```
+```rust
 while n < 101 {
     n += 1;
 }
@@ -68,7 +68,7 @@ while let Some(i) = optional {
 
 #### for loop
 
-```
+```rust
 for n in 1..101 {
     println!("{}", n);
 }
@@ -81,7 +81,7 @@ for name in names.iter() {
 
 #### match
 
-```
+```rust
 let optional = Some(0);
 
 match optional {
