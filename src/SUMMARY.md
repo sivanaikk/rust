@@ -1,3 +1,18 @@
-# Summary
-[Home](./Home.md)
-- [Chapter 1](./chapter_1.md)
+# Rust Notes
+
+[Contents](contents.md)
+- [Introduction](1_introduction.md)
+- [Basic Types & Variables](2_basic.md)
+- [Control Flow](3_control_flow.md)
+- [References, Ownership, and Borrowing](4_ref_ownership_borrow.md)
+- [Pattern Matching](5_pattern_matching.md)
+- [Iterators](6_iterators.md)
+- [Error Handling](7_error_handling.md)
+- [Combinators](8_combinators.md)
+- [Multiple error types](9_error_types.md)
+- [Iterating over errors](10_itr_errors.md)
+- [Generics, Traits, and Lifetimes](11_generics.md) 
+- [Functions, Function Pointers & Closures](12_functions.md)
+- [Pointers](13_pointers.md) 
+- [Smart pointers](14_smart_pointers.md) 
+- [Packages, Crates, and Modules](15_packages.md)
