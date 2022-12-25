@@ -1,5 +1,11 @@
 [book]
-authors = []
+authors = ["Siva Naik"]
 language = "en"
 multilingual = false
 src = "src"
+title = "Rust Notes"
+
+
+[output.html]
+git-repository-url = "https://github.com/sivanikk/rust"
+edit-url-template = "https://github.com/sivanikk/rust/edit/main/{path}"
