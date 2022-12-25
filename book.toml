@@ -9,3 +9,7 @@ title = "Rust Notes"
 [output.html]
 git-repository-url = "https://github.com/sivanikk/rust"
 edit-url-template = "https://github.com/sivanikk/rust/edit/main/{path}"
+
+[output.html.playground]
+editable = false  
+runnable = false
