@@ -135,5 +135,5 @@ struct User<'a> {
 
 #### Static lifetimes
 ```rust
-let s: &'static str = "Let’s Get Rusty!";
+let s: &'static str = "Rust";
 ```
