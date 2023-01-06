@@ -19,3 +19,20 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```bash
 curl https://sh.rustup.rs -sSf | sh
 ```
+
+- Create a Rust Project 
+
+```bash
+mkdir workspace
+
+cd workspace
+
+cargo new project-name
+
+cd project-name 
+```
+Install vscode 
+
+```bash
+code  .
+```
